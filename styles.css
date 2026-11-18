@@ -48,12 +48,6 @@ nav a:hover {
 
 
 
-/*
-.overview-hero .overview-hero-text .h2 {
-    display: flex;
-    align-items: right;
-}
-    */
 
 .overview-hero{
     background-color: #e2e8f0;
@@ -69,22 +63,21 @@ nav a:hover {
 
 
 
-.overview-hero-image {
-  width: 200px;
-  height: 200px;
-  background-image: url("undraw_yoga_i399.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;   /* shows the whole image inside the 200x200 box */
-  flex: none;                 /* stops flexbox from stretching it */
+.overview-hero-image img {
+ object-fit: contain;
+
 }
+
 
 
 /*learn About Section*/
 
 .learn-about{
     padding: 3rem 0;
+    
 }
+
+
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
@@ -99,7 +92,7 @@ nav a:hover {
     gap: 1.5rem;
 }
 
-.card{ /*var(--w3-border-color) !important*/
+.card{ 
     border: 3px solid ;
     border-color: #E2E8F0;
     border-radius: 5px;  
