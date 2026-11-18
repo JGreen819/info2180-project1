@@ -1,0 +1,243 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+header {
+    background: #ffffff;
+    font-size: 18px;
+}
+
+ header .container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: #6b7280; /*nav link color*/
+}
+
+nav a:hover {
+    color: #5A67D8; /*nav link changes color when pointer hovers*/
+}
+
+
+
+/*
+.overview-hero .overview-hero-text .h2 {
+    display: flex;
+    align-items: right;
+}
+    */
+
+.overview-hero{
+    background-color: #e2e8f0;
+    padding: 3rem 0;
+    
+}
+.overview-hero .container {
+    display: flex;
+    align-items:center;
+    gap: 3rem;
+    
+}
+
+
+
+.overview-hero-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("undraw_yoga_i399.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;   /* shows the whole image inside the 200x200 box */
+  flex: none;                 /* stops flexbox from stretching it */
+}
+
+
+/*learn About Section*/
+
+.learn-about{
+    padding: 3rem 0;
+}
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+    
+}
+
+
+/* cards section*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card{ /*var(--w3-border-color) !important*/
+    border: 3px solid ;
+    border-color: #E2E8F0;
+    border-radius: 5px;  
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); 
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+/*buttons*/
+
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* Covid 19 Testing Programme*/
+.testing{
+    background: #4A5568;
+    padding: 4rem 0;
+    color: #ffffff;
+
+}
+
+.testing .container {
+    display: flex;
+}
+
+.testing .btn {
+    background: #48BB78;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+
+
+/*Recent stories*/
+
+.stories{
+    padding: 3rem 0;
+}
+
+.stories h2{
+    color: #5A67D8;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.stories article img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    
+}
+
+.stories h3{
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.stories a {
+    color: #5A67D8;
+}
+
+/*Newsletter*/
+
+.newsletter {
+    background: #48BB78;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0.5rem;
+
+}
+
+.newsletter input {
+    padding: 0.75rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    min-width: 260px;
+}
+
+.newsletter .btn {
+    background: #5A67D8;
+}
+
+.message {
+    margin-top: 1rem;
+    min-height: 1.5rem;
+}
+
+/*Footer*/
+
+footer {
+    background: #4A5568;
+    color: #ffffff;
+    padding: 1rem 0;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+
